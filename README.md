@@ -48,29 +48,17 @@ Antes de começar, certifique-se de que você tem o Python instalado em sua máq
 
 ### Execução
 
-1. **Captura de Imagens**: Execute o script `Captura.py` para começar a captura de imagens faciais. Essas imagens serão usadas para o treinamento do modelo. Para cada pessoa, um identificador único deve ser fornecido.
+1. **Captura de Imagens**: Execute o script `Captura.py` para começar a captura de imagens faciais. Essas imagens serão usadas para o treinamento do modelo. Para cada pessoa, um identificador único deve ser fornecido.  
+`python Captura.py` - Siga as instruções na tela para capturar as imagens.
 
-`python Captura.py`  
-
-Siga as instruções na tela para capturar as imagens.
-
-2. **Treinamento do Modelo**: Após a captura das imagens, execute o script `Treinamento.py` para treinar o modelo de reconhecimento facial.
-
-`python Treinamento.py`
-
-Este script processará as imagens capturadas e criará um modelo treinado.
+2. **Treinamento do Modelo**: Após a captura das imagens, execute o script `Treinamento.py` para treinar o modelo de reconhecimento facial.  
+`python Treinamento.py` - Este script processará as imagens capturadas e criará um modelo treinado.
 
 4. **Reconhecimento Facial**: Com o modelo treinado, você pode executar um dos scripts de reconhecimento (`Reconhecedor_eigenfaces.py`, `Reconhecedor_fisherfaces.py`, `Reconhecedor_lbph.py`) para identificar as faces em tempo real.  
-
-`python Reconhecedor_eigenfaces.py`  
-
-Substitua `Reconhecedor_eigenfaces.py` pelo script de reconhecimento desejado.
+`python Reconhecedor_eigenfaces.py` - Substitua `Reconhecedor_eigenfaces.py` pelo script de reconhecimento desejado.
 
 4. **Teste com Base de Dados Yale**: Para testar o sistema com a base de dados Yale, execute o script `Teste_Yale.py`.  
-
-`python Teste_Yale.py`  
-
-Este script avaliará a eficácia do modelo utilizando um conjunto de dados externo.
+`python Teste_Yale.py` - Este script avaliará a eficácia do modelo utilizando um conjunto de dados externo.
 
 ### Notas Adicionais
 
