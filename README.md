@@ -2,12 +2,6 @@
 
 Este projeto implementa um sistema de reconhecimento facial utilizando Python, oferecendo uma solução eficiente e prática para identificação de indivíduos em imagens e vídeos.
 
-## Autor
-
-**Leandro Sampaio**
-
-Desenvolvido por Leandro Sampaio, este projeto é o resultado de um trabalho dedicado em visão computacional e reconhecimento facial utilizando Python.
-
 ## Funcionalidades
 
 - **Captura de Imagens**: Utiliza a webcam para capturar imagens faciais, armazenando-as para treinamento e reconhecimento.
@@ -64,4 +58,10 @@ Antes de começar, certifique-se de que você tem o Python instalado em sua máq
 
 - Certifique-se de que sua webcam está funcionando corretamente para a captura de imagens e reconhecimento em tempo real.
 - Os scripts podem ser modificados para atender a requisitos específicos ou para melhorar a funcionalidade.
+
+## Autor
+
+**Leandro Sampaio**
+
+Desenvolvido por Leandro Sampaio, este projeto é o resultado de um trabalho dedicado em visão computacional e reconhecimento facial utilizando Python.
 
