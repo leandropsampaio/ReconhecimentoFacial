@@ -54,13 +54,13 @@ Antes de começar, certifique-se de que você tem o Python instalado em sua máq
 
 Siga as instruções na tela para capturar as imagens.
 
-2. **Treinamento do Modelo**: Após a captura das imagens, execute o script `Treinamento.py` para treinar o modelo de reconhecimento facial.  
+2. **Treinamento do Modelo**: Após a captura das imagens, execute o script `Treinamento.py` para treinar o modelo de reconhecimento facial.
 
-`python Treinamento.py`  
+`python Treinamento.py`
 
 Este script processará as imagens capturadas e criará um modelo treinado.
 
-3. **Reconhecimento Facial**: Com o modelo treinado, você pode executar um dos scripts de reconhecimento (`Reconhecedor_eigenfaces.py`, `Reconhecedor_fisherfaces.py`, `Reconhecedor_lbph.py`) para identificar as faces em tempo real.  
+4. **Reconhecimento Facial**: Com o modelo treinado, você pode executar um dos scripts de reconhecimento (`Reconhecedor_eigenfaces.py`, `Reconhecedor_fisherfaces.py`, `Reconhecedor_lbph.py`) para identificar as faces em tempo real.  
 
 `python Reconhecedor_eigenfaces.py`  
 
